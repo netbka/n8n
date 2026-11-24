@@ -291,7 +291,7 @@ test('streams OpenCode CLI events and resumes an OpenCode session', async () => 
 	assert.deepEqual(invocation.args, [
 		'run',
 		'--model',
-		'openrouter/openai/gpt-5.6-sol',
+		'openrouter/openai/gpt-6.2-sol',
 		'--format',
 		'json',
 		'--auto',
