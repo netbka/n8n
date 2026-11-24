@@ -270,7 +270,7 @@ needs `gh` with the codespace scope, the same as `pnpm session`.
 
 `agent-worker.mjs` lets an n8n workflow drive an OpenCode session on the
 codespace. This is how Slack (the Flaky bot) steers a session that runs here.
-Each turn runs `openrouter/openai/gpt-5.6-sol` through
+Each turn runs `openrouter/openai/gpt-6.2-sol` through
 `opencode run --format json --auto`. The session state remains on disk. The
 returned session ID continues a conversation across turns and a Codespace
 restart.

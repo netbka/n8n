@@ -132,7 +132,7 @@ export function runOpenCode(
 	} = {},
 ) {
 	const directory = safeCwd(cwd);
-	const args = ['run', '--model', 'openrouter/openai/gpt-5.6-sol', '--format', 'json', '--auto'];
+	const args = ['run', '--model', 'openrouter/openai/gpt-6.2-sol', '--format', 'json', '--auto'];
 	if (sessionId) args.push('--session', sessionId);
 
 	return new Promise((resolve, reject) => {
